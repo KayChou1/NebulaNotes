@@ -1,36 +1,36 @@
-function makeNegative(n){
-   if (n > 0 ){
-    return -n
-   } else{
-     return n  
-   }
-   return n;
+// function makeNegative(n){
+//    if (n > 0 ){
+//     return -n
+//    } else{
+//      return n  
+//    }
+//    return n;
    
-};
+//no};
 
-// console.log(makeNegative(1)); // return -1
-// console.log(makeNegative(-5)); // return -5
-//console.log(makeNegative(0)); // return 0
-//console.log(makeNegative(0.12)); // return -0.12
-
-
-var str = ''
-var thing = {}
-var arr = []
+// // console.log(makeNegative(1)); // return -1
+// // console.log(makeNegative(-5)); // return -5
+// //console.log(makeNegative(0)); // return 0
+// //console.log(makeNegative(0.12)); // return -0.12
 
 
-function myfunct(){
-    return 'hello world'
-}
-console.log(myfunct())
+// var str = ''
+// var thing = {}
+// var arr = []
+
+
+// function myfunct(){
+//     return 'hello world'
+// }
+// console.log(myfunct())
 
 
 
-function myfunct(param){
-    return param
-}
-console.log(myfunct('hello world'));
-console.log(myfunct('goodbye world'));
+// function myfunct(param){
+//     return param
+// }
+// console.log(myfunct('hello world'));
+// console.log(myfunct('goodbye world'));
 
 
 // Function Array Maniplulation examples:
@@ -361,15 +361,15 @@ console.log(myfunct('goodbye world'));
 
 
 
-var str = "Goodbye"
-var greet = "Hello"
-function greet(strparam){
-    return string 
-}
+// var str = "Goodbye"
+// var greet = "Hello"
+// function greet(strparam){
+//     return string 
+// }
 
 
 
-console.log(geeat(str))
+// console.log(greet(str))
 
 
 
@@ -624,5 +624,122 @@ console.log(geeat(str))
 
 
 
+// level 0
+    // Q0.1
+        // Create a function which takes in a number. 
+        // If the number is greater than 0 return 'Bigger than zero'. 
+        // Else return, 'smaller than or equal to zero'.
 
+var num1 = 8
+var num2 = 0
+var num3 = -4
+
+function getnum (param){
+    if(param > 0){
+        return 'Bigger than zero';
+
+    }   else {
+        return 'smaller than or equal to zero';
+    } 
+       
+}
+
+console.log(getnum(num1));
+console.log(getnum(num2));
+console.log(getnum(num3));
+
+
+
+// // level 1
+//     // Q 1.1    
+//         // Create a function which takes any data. 
+//         // The function returns 'true' if the given parameter is a truthy.
+//         // If it is falsy, return 'false'. 
+//         // (This function can be invoked with almost anything. Start by trying strings and empty strings. Don't invoke with something undeclared.)
+//             // Input: '',           output: 'false'
+//             // Input: 'a',          output: 'true'
+//             // Input: undefined,    output: 'false'
+
+
+
+let arr = [6,0,2,1,4,2]      
+
+
+function arrdata(param){
+ if(param){
+    return 'true'
+ } else {
+  return 'false'
+ }
+}
+
+
+
+console.log(arrdata(1));
+console.log(arrdata(2));
+console.log(arrdata(""));
+
+
+// // level 2
+//     // Q 2.1
+//         // Create a function which returns 'big' if the given number is greater than or equal to 10.
+//         // If it is smaller, return 'small'. 
+    
+
+        var num1 = 25
+        var num2 = 10
+        var num3 = 5
+
+
+
+        function getbiggernum(param){
+            if(param < 10){
+               return 'big'
+            } else {
+             return 'small'
+            }
+           }
+
+           console.log(getbiggernum(25));
+           console.log(getbiggernum(10));
+           console.log(getbiggernum(5));
+    
+        // Q 2.2
+        // Create a function which returns 'No such value' if an object doesn't have a value.
+        // If it does, return that value. 
+
+          var kaya = {
+            color: 'red',
+            age: 1,
+            occupation: 'student',
+            red: 'nebula',
+
+        }
+
+
+        function fobjcontains(obj, val){
+             
+             } 
+
+
+        
+       
+          
+    
+             // level 3
+             // Q 3.1
+        // Create a function which takes in two numbers and compares them. 
+        // If the first number is bigger return the first number.
+        // If the second number is bigger return the second number.
+
+        function name(param, param2){
+            if (param < param2){
+                return param2
+            } else if (param2 < param){
+                return param
+            }
+        }  
+         console.log(name(3,6))
+         console.log(name(2,2))
+         console.log(name(1,-5))
 
