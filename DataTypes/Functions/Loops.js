@@ -2,11 +2,11 @@
 // level 0
     // create and invoke a "hello world" function that will always say hello world
 
-var str = 'Coder'
-function greet(strparam){
-    return strparam;
-}
- console.log(greet(str));
+// var str = 'Coder'
+// function greet(strparam){
+//     return strparam;
+// }
+//  console.log(greet(str));
 
     // level 1 
     // Q1:
@@ -202,3 +202,161 @@ function greet(strparam){
 // var arr = Math.pow(15 % 2);
 
 // console.log(arr)
+
+
+
+// function even_or_odd(number) {
+//     if(number % 2 === 0){
+//      return "Even"
+//     } else{ 
+//         return " Odd"
+//     }
+
+// } 
+
+
+
+// console.log(even_or_odd(2))
+// console.log(even_or_odd(0))
+// console.log(even_or_odd(7))
+// console.log(even_or_odd(1))
+
+
+
+// var findShort1 = "turns out random test cases are easier than writing out basic ones"
+// var findShort2 = "bitcoin take over the world maybe who knows perhaps"
+
+// function findShort(param, param2){
+//     if(param.length > param2.length){
+//         return param2
+//     } else {
+//      return  param
+//     }
+
+// }
+
+
+// console.log(findShort(findShort1 ,findShort2))
+
+
+
+
+
+
+
+//question1
+//multiplication
+
+
+
+// var dec1 = ("1.9")
+// var dec2 = ("2.0")
+// function multiply(param1, param2){
+//     return param1 * param2
+// }
+
+// console.log(multiply(dec1, dec2));
+
+
+//question2
+// float 1.5 // javascript functions to floats
+
+// var dec1 = ("1.9")
+// var dec2 = ("2.0")
+// function multiply(param1, param2){
+//     return param1 * param2
+// }
+
+// console.log(multiply(dec1, dec2));
+
+
+
+//question3
+//addition 
+
+
+
+
+
+
+
+
+
+//question4
+//subtraction 
+
+
+
+
+
+
+
+//question5
+//division 
+
+
+
+
+
+
+
+
+
+//multiplication 
+
+
+
+
+
+//square root
+
+
+
+
+
+
+
+
+
+// to the power of
+ 
+//Math object javascript 
+// float 1.5 // javascript functions to floats
+// parseInt()
+
+
+
+
+
+
+// write a function that takes in a string and reverses it. 
+//for example input: "hello world!" output: "!dlrow olleh"
+ 
+//write a function that returns "fizz" if a number is divisible by 3, "buzz" if a number is divisible by 5 and "fizzbuzz" if it is divisible by both 3 and 5. 
+// for example: input: 15 , output: "fizzbuzz". 
+// input: 10, output: "buzz"
+// input: 9, output: "fizz"
+
+
+//Fellow code warrior, we need your help! We seem to have lost one of our array elements, and we need your help to retrieve it! 
+//Our array, superImportantArray, was supposed to contain all of the integers from 0 to 9 (in no particular order)
+ //but one of them seems to be missing.
+
+
+function getMissingElement(superImportantArray){
+    let arrAllNumbers = [0,1,2,3,4,5,6,7,8,9]
+    
+    for(let i = 0; i < arrAllNumbers.length; i++){
+
+        if( superImportantArray.indexOf(arrAllNumbers[i]) === -1){ 
+            return arrAllNumbers[i] 
+        }
+    }
+
+}
+
+
+//i = i + 1
+
+console.log(getMissingElement([0,5,1,3,2,9,7,6,4]));
+console.log(getMissingElement([9,2,4,5,7,0,8,6,1]));
