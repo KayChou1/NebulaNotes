@@ -544,7 +544,7 @@
 
 
 
-// function Add(strParam){
+// function add(strParam){
 //     let nums = strParam.split('+');
 //     let sum = 0;
 //     for(i = 0; i < nums.length ; i++){
@@ -553,25 +553,47 @@
 //     return sum;
 // }
 
-// console.log(Add('2+3')) //returns 5
+// console.log(add('2+3')) //returns 5
 
 
 
-function Subtract(strParam){
-    let nums = strParam.split('-')
-    let sub = nums[0];
-    sub = sub - parseInt(nums[1]);
-    return sub
+// function subtract(strParam){
+//     let nums = strParam.split('-')
+   
+//     let sub = parseInt(nums[0]) - parseInt(nums[1]);
+//     return sub
 
-}
-
-
-console.log(Subtract('5-3')) //returns 2
+// }
 
 
+// console.log(subtract('5-3')) //returns 2
 
-//console.log(doMath('2*3')) //returns 6
-//console.log(doMath('6/3')) //returns 2
+
+
+
+// function multiply(strParam){
+//     let nums = strParam.split('*')
+
+//     let sum = parseInt(nums[0]) * parseInt(nums[1]);
+//     return sum
+    
+// }
+
+// console.log(multiply('2*3')) //returns 6
+
+
+
+
+// function divide(strParam){
+//     let nums = strParam.split('/')
+    
+//     let quo = parseInt(nums[0]) / parseInt(nums[1]);
+//     return quo
+
+// }
+
+
+// console.log(divide('6/3')) //returns 2
 
 
 
