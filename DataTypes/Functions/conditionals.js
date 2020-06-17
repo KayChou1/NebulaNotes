@@ -597,3 +597,14 @@
 
 
 
+// function multiply(a,b){
+//     return a * b 
+// }
+
+// console.log(multiply)
+
+
+
+let str = "hello world!"
+
+console.log("hello world!")
