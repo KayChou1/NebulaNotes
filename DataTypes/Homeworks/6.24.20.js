@@ -17,7 +17,7 @@ console.log(stringArr[3])
 
 let stringArr = ["first", "second", "middle", "last"]; 
 stringArr.push('newlast');
-console.log(stringArr)
+console.log(stringArr) 
 
 
 //4) console.log the last element of the 'stringArr' array. 
